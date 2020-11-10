@@ -1,0 +1,12 @@
+sudo apt remove r-base
+## latest version
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install r-base r-base-core r-recommended
+
+
+
+
+
+
